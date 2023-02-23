@@ -12,65 +12,66 @@ body {
     
     display: flex;
     flex-direction:column;
-
     height: 100%;
 
 }
 header{
-    font-size: 30px;
+    hei;
+    width: 100%;
+    font-size: 15px;
     color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items:center ;
-    justify-content:space-between ;
-    padding: 20%;
+    justify-content:space-around ;
     padding-bottom: 0px;
-    padding-top: 0px;
-    background: linear-gradient(180.0deg, #353435 20.31%, #63066b 90.0% );
-    box-shadow: 0px 10px 15px #63066b;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(90.0deg, #db81f7 17.54%, #7f7ff3 54.55% ,#fbaacd 72.31% );
     text-align: center;   
-    height: 100px;
+    height: 50px;
     
+}
+header h1{
+    padding-right: 10px;
 }
 #btns{
-    width: 650px;
-    height: 60px;    
+    width: 280px;   
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #executar{
-    height: 60px;
-    width: 180px;
-    background: radial-gradient( #f82aeecc 40.31%, #3529362d 100.41%);    font-size: 40px;
-    color: #190a29;
-    margin-right: 30px;
-    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+    background: #5c48f3c3 ;    
+    font-size: 15px;
+    
+    margin-right: 3px;
+    border-radius: 10px;
     user-select: none;
     cursor: pointer; 
 
 }
 #voltarPagina{
-    height: 60px;
-    width: 180px;
-    background: radial-gradient( #f82aeecc 40.31%, #3529362d 100.41%);    font-size: 40px;
-    color: #190a29;
-    margin-right: 30px;
-    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+    background: #5c48f3c3 ;    
+    font-size: 15px;
+    margin-right: 3px;
+    border-radius: 10px;
     user-select: none;
-    cursor: pointer; 
+    cursor: pointer;
+    
 }
 #limparCampo{
-    height: 60px;
-    width: 180px;
-    background: radial-gradient( #f82aeecc 40.31%, #3529362d 100.41%);
-    
-    font-size: 40px;
-    color: #190a29;
-    margin-right: 30px;
-    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+    background: #5c48f3c3 ;    
+    font-size: 15px;
+    margin-right: 3px;
+    border-radius: 10px;
     user-select: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 body{
@@ -80,7 +81,7 @@ body{
     background: linear-gradient(241.29deg, #938f97 10.31%, #1a1919 93.41%)
 }
 .campoNome{
-    height: 180px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items:end;
@@ -90,27 +91,26 @@ body{
 }
 
 #card{
-    height: 90%;
-    padding-left: 1%;
-    padding-right: 1%;
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     justify-content:space-around ;
-    
-    
     flex-direction: row;
 }
 #texthtml{
     background-color: rgba(26, 32, 26, 0.411);
-    color: rgba(255, 255, 255, 0.452);
-    width: 1000px;
-    height: 1300px;
+    color: white;
+    width: 500px;
+    height: 450px;
     font-size: 30px;
 }
 #textjs{
     background-color: rgba(26, 32, 26, 0.411);
     color: white;
-    width: 1000px;
-    height: 1300px;
+    width: 500px;
+    height: 450px;
     font-size: 30px;
 
 }
@@ -120,6 +120,7 @@ body{
     align-items: center;
 }
 #inserirhtml h1{
+    font-size: 15px;
     color: #ffffff;
 }
 #inserirjs{
@@ -128,6 +129,7 @@ body{
     align-items: center;
 }
 #inserirjs h1{
+    font-size: 15px;
     color: #ffffff;
 }
 
