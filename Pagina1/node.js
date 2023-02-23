@@ -7,11 +7,6 @@ var oct_js = 0;
 var tex_html = document.getElementById('texthtml').value;
 var tex_js = document.getElementById('textjs').value;
 
-    var limparTexto = document.getElementById("limparCampo")
-    limparTexto.addEventListener("click", textoLimpo)
-
-    var voltarPagina = document.getElementById("voltarPagina")
-    voltarPagina.addEventListener('click',voltarPaginaInicial)
 
 function executar(){
     oct_html = document.getElementById('inserirhtml').style.display = 'none'
@@ -27,11 +22,3 @@ function limpar(){
 
 
 }
-
-    function voltarPaginaInicial(){
-
-    }
-
-    function textoLimpo(){
-        
-    }
