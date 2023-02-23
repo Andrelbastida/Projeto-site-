@@ -1,11 +1,11 @@
 var bot = document.getElementById('botao')
-bot.addEventListener('click',magia)
-var pux_html = 0;
-var pux_js = 0;
+bot.addEventListener('click',ocultar)
+var oct_html = 0;
+var oct_js = 0;
 
-function magia(){
-    pux_html = document.getElementById('bloco_html');
-    pux_js = document.getElementById('bloco_js');
-
-    
+function ocultar (){
+    var oct_html = document.getElementById('').style.display;
+    oct_html = 'none';
+    var oct_js = document.getElementById('').style.display;
+    oct_js = 'none';
 }
