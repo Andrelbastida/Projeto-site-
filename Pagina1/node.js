@@ -7,4 +7,5 @@ function magia(){
     pux_html = document.getElementById('bloco_html');
     pux_js = document.getElementById('bloco_js');
 
+    
 }
