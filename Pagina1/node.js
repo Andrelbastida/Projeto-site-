@@ -1,7 +1,7 @@
 var bot_exec = document.getElementById('executar')
 bot_exec.addEventListener('click',executar)
 var bot_limp = document.getElementById('limpar')
-bot_limp.addEventListener('click',limpar)
+bot_limp.addEventListener('click',limparCampo)
 var oct_html = 0;
 var oct_js = 0;
 
