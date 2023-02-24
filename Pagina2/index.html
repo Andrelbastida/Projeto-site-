@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lista 01 Exercício 01</title>
+    <title>Gerador de HTML e Js</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -11,29 +11,30 @@
 		ADENDO: copie seu codigo da forma solicitada nos exemplos para a formatação permanecer correta
 		Dica: Copie ELEMENTO por ELEMENTO para que possa facilitar sua tranferencia sem erros -->
     <main>
-      <section class="titulo">
-     
+      <section class="inputOutput" id="page1">
+        <div class="inserts">
+            <div id="areahtml">
+                <p>insira seu codigo em html:</p>
+                <textarea name="codeHtml" id="codeHtml" cols="30" rows="20"></textarea>
+            </div>
+            <div id="areajs">
+                <p>insira seu codigo em JS:</p>
+                <textarea name="codeJs" id="codeJs" cols="30" rows="20"></textarea>
+            </div>
+        </div>
+            <div class="buttons">
+              <!-- Cole ou insira a baixo os botões do exercicio
+              <input type="button" id="btnCalcular" value="Calcular"> 
+              <input type="button" id="btnCalcular2" value="Calcular2"> -->
+              <input type="button" id="btnExecutar" value="Gerar" />
+            </div>
       </section>
-      <section class="inputOutput">
-    <div class="inserts">
-        <div id="areahtml">
-            <p>insira seu codigo em html:</p>
-            <textarea name="codeHtml" id="codeHtml" cols="30" rows="20"></textarea>
-        </div>
-        <div id="areajs">
-            <p>insira seu codigo em JS:</p>
-            <textarea name="codeJs" id="codeJs" cols="30" rows="20"></textarea>
-        </div>
-    </div>
-        <div class="buttons">
-          <!-- Cole ou insira a baixo os botões do exercicio
-					<input type="button" id="btnCalcular" value="Calcular"> 
-					<input type="button" id="btnCalcular2" value="Calcular2"> -->
-          <input type="button" id="btnCalcular" value="Gerar" />
-        </div>
+
+      <section id="page2">
+        <input type="button" id="btnVoltar" value="Voltar">
       </section>
     </main>
   </body>
   <!-- Para adicionar o codigo da logica JS va para pasta SRC no aquivo main.js -->
-  <script src="./src/main.js"></script>
+  <script src="./node.js"></script>
 </html>
