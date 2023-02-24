@@ -16,7 +16,6 @@ body {
 
 }
 header{
-    hei;
     width: 100%;
     font-size: 15px;
     color: #ffffff;
@@ -27,7 +26,7 @@ header{
     padding-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background: linear-gradient(90.0deg, #db81f7 17.54%, #7f7ff3 54.55% ,#fbaacd 72.31% );
+    
     text-align: center;   
     height: 50px;
     
@@ -36,49 +35,70 @@ header h1{
     padding-right: 10px;
 }
 #btns{
-<<<<<<< HEAD
-    width: 280px;   
-=======
-    width: 650px;
+
+    width: 400px;   
     height: 60px;    
     display: flex;
     flex-direction: row;
->>>>>>> 69c5d7031c8335779d91604ff340edc25b37ef36
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
+
+    
+    
 }
 #executar{
-    height: 30px;
-    width: 80px;
-    background: #5c48f3c3 ;    
-    font-size: 15px;
+    width: 40%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  align-items: center;
+  background: linear-gradient(
+    257.91deg,
+    #c366ff 17.54%,
+    #d37fc8 54.55%,
+    #e95582 72.93%
+  );
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border-style: none;
+  margin-top: 5%;
+  transition: 0.2s;
+  color: white;
+  font-weight: 500;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
     
-    margin-right: 3px;
-    border-radius: 10px;
-    user-select: none;
-    cursor: pointer; 
 
 }
+  
+
 #voltarPagina{
-    height: 30px;
-    width: 80px;
-    background: #5c48f3c3 ;    
-    font-size: 15px;
-    margin-right: 3px;
-    border-radius: 10px;
-    user-select: none;
-    cursor: pointer;
-    
-}
-#limparCampo{
-    height: 30px;
-    width: 80px;
-    background: #5c48f3c3 ;    
-    font-size: 15px;
-    margin-right: 3px;
-    border-radius: 10px;
-    user-select: none;
-    cursor: pointer;
+    width: 40%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  align-items: center;
+  background: linear-gradient(
+    257.91deg,
+    #c366ff 17.54%,
+    #d37fc8 54.55%,
+    #e95582 72.93%
+  );
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border-style: none;
+  margin-top: 5%;
+  transition: 0.2s;
+  color: white;
+  font-weight: 500;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
 }
 
 body{
@@ -138,5 +158,9 @@ body{
 #inserirjs h1{
     font-size: 15px;
     color: #ffffff;
+}
+
+#pronto{
+    
 }
 
