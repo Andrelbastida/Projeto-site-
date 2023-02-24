@@ -193,7 +193,10 @@ input {
     gap: 30px;
 }
 nav{
-  right: 20px;
-  height: 20px;
-  background: linear-gradient(241.29deg, #4d4a50 10.31%, #1a1919 93.41%);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 5000px;
 }
