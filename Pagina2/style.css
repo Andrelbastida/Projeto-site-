@@ -49,7 +49,7 @@ body {
 }
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   padding: 50px;
   width: 800px;
@@ -58,38 +58,7 @@ main {
   box-shadow: 0px 0px 14px -3px black;
   border-radius: 15px;
 }
-input {
-  text-align: center;
-  font-size: 1.3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 700px;
-  height: 200px;
-}
-.titulo h1 {
-  width: 600px;
-  text-align: left;
-  font-size: 28px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-.titulo p b:nth-child(1) {
-  font-size: 20px;
-}
-.titulo b {
-  font-weight: bold;
-}
-.titulo p {
-  word-break: normal;
-  text-align: justify;
-  font-size: 18px;
-  line-height: 25px;
-}
-.inputOutput {
-  display: flex;
-  flex-direction: column;
-}
+
 input {
   background: var(--input-fundo);
   border-radius: 12px;
@@ -97,23 +66,7 @@ input {
   height: 40px;
   border-style: none;
 }
-.Input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2%;
-  gap: 30px;
-}
-.Input p{
-  padding-top: 10px;
-  font-weight: 700;
-}
-.output{
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
+
 #result {
   padding: 10px;
   background-color: var(--input-fundo);
@@ -130,12 +83,10 @@ input {
   justify-content: center;
   align-items: center;
 }
-.buttons {
+input, button {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-#btnExecutar{
   width: 140px;
   height: 60px;
   display: flex;
@@ -153,42 +104,10 @@ input {
   font-size: 1.3rem;
   cursor: pointer;
 }
-#btnExecutar:hover {
+
+input:hover {
   transform: scale(110%);
 }
-
-
-#btnVoltar{
-  width: 140px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  font-size: 1rem;
-  align-items: center;
-  background: var(--botao);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-  border-radius: 12px;
-  margin-top: 5%;
-  transition: 0.2s;
-  color: white;
-  font-weight: 500;
-  align-items: center;
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-#btnVoltar:hover {
-  transform: scale(110%);
-}
-
-
-
-#btnSomar:hover,
-#btnSub:hover,
-#btnMult:hover,
-#btnDiv:hover {
-  transform: scale(110%);
-}
-
 .inserts{
     display: flex;
     flex-direction: row;
@@ -215,4 +134,13 @@ nav{
 #codeHtml:hover {
   transform: scale(105%);
   transition: 0.5s;
+}
+textarea{
+  transition: 0.5s;
+}
+#btnExecutar {
+  margin-left: 540px;
+}
+#btnVoltar {
+  margin-left: 540px;
 }
