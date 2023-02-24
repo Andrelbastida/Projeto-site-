@@ -36,7 +36,14 @@ header h1{
     padding-right: 10px;
 }
 #btns{
+<<<<<<< HEAD
     width: 280px;   
+=======
+    width: 650px;
+    height: 60px;    
+    display: flex;
+    flex-direction: row;
+>>>>>>> 69c5d7031c8335779d91604ff340edc25b37ef36
     align-items: center;
     justify-content: space-around;
 }

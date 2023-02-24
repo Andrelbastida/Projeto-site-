@@ -1,34 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <H1>Gerador de HTML</H1>
-        </nav>
-        <div id="btns">
-            <input type="button" value="Executar" id="executar">
-            <input type="button" value="Voltar" id="voltarPagina">
-            <input type="button" value="Limpar" id="limparCampo">
-        </div>
-    </header>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista 01 Exercício 01</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Instruções basicas: Copie e cole os elementos do seu codigo para este em seus respectivos locais.
+		ADENDO: copie seu codigo da forma solicitada nos exemplos para a formatação permanecer correta
+		Dica: Copie ELEMENTO por ELEMENTO para que possa facilitar sua tranferencia sem erros -->
     <main>
-        <div id="card">
-            <h1> Aqui está seu site </h1>
-            <div id="seuSite">
-                
-               <!--  <h2>Insira seu codigo HTML aqui:</h2>   -->
-                <span id="seuSite" type text name="nome"></span>
-            </div>
+      <section class="titulo">
+     
+      </section>
+      <section class="inputOutput">
+    <div class="inserts">
+        <div id="areahtml">
+            <p>insira seu codigo em html:</p>
+            <textarea name="codeHtml" id="codeHtml" cols="30" rows="20"></textarea>
         </div>
+        <div id="areajs">
+            <p>insira seu codigo em JS:</p>
+            <textarea name="codeJs" id="codeJs" cols="30" rows="20"></textarea>
+        </div>
+    </div>
+        <div class="buttons">
+          <!-- Cole ou insira a baixo os botões do exercicio
+					<input type="button" id="btnCalcular" value="Calcular"> 
+					<input type="button" id="btnCalcular2" value="Calcular2"> -->
+          <input type="button" id="btnCalcular" value="Gerar" />
+        </div>
+      </section>
     </main>
-
-</body>
-    <script src="./node.js"></script>
+  </body>
+  <!-- Para adicionar o codigo da logica JS va para pasta SRC no aquivo main.js -->
+  <script src="./src/main.js"></script>
 </html>
