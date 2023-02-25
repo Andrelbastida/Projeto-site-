@@ -7,19 +7,32 @@
         }
     }
 */
-var mp1 = 0
-var mp2 = document.getElementById('page2').style.display = 'none'
+var p1 = 0
+var p2 = document.getElementById('page2').style.display = 'none'
 var btn_exec = document.getElementById('btnExecutar')
-btn_exec.addEventListener('click',gerar);
+btn_exec.addEventListener('click', gerar);
 var btn_volt = document.getElementById('btnVoltar')
-btn_volt.addEventListener('click',voltar);
+btn_volt.addEventListener('click', voltar);
 
-function gerar(){
-    mp1 = document.getElementById('page1').style.display = 'none';
-    mp2 = document.getElementById('page2').style.display = 'block';
+
+function gerar() {
+    p1 = document.getElementById('page1')
+    p2 = document.getElementById('page2')
+
+    p1.style.display = 'none';
+    p2.style.display = 'block';
+
+    var tHtml = document.getElementById('codeHtml').value
+    var tJs = document.getElementById('codeJs').value
+
+    p2.innerHTML = tHtml + "<input type=\"button\" id=\"btnVoltar\" value=\"Voltar\">"
+
+    document.getElementById('btnVoltar').addEventListener('click', voltar);
+    document.getElementById('jsUser').innerHTML = tJs
+
 }
 
-function voltar(){
+function voltar() {
     mp1 = document.getElementById('page1').style.display = 'block';
     mp2 = document.getElementById('page2').style.display = 'none';
 }
