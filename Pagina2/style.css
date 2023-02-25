@@ -41,12 +41,12 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background: var(--fundo);
   color: var(--texto);
   gap: 50px;
 }
+
 main {
   display: flex;
   flex-direction: row;
@@ -67,22 +67,6 @@ input {
   border-style: none;
 }
 
-#result {
-  padding: 10px;
-  background-color: var(--input-fundo);
-  color: black;
-  border-radius: 12px;
-  width: auto;
-  min-width: 100px;
-  max-width: 500px;
-  height: auto;
-  min-height: 40px;
-  word-break: break-all;
-  border-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 input, button {
   display: flex;
   justify-content: space-around;
@@ -138,9 +122,7 @@ nav{
 textarea{
   transition: 0.5s;
 }
-#btnExecutar {
-  margin-left: 540px;
-}
-#btnVoltar {
-  margin-left: 540px;
-}
+body #btDiv{
+  display: flex;
+  flex-direction: column;
+

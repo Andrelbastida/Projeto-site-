@@ -25,11 +25,8 @@ function gerar() {
     var tHtml = document.getElementById('codeHtml').value
     var tJs = document.getElementById('codeJs').value
 
-    p2.innerHTML = tHtml + "<input type=\"button\" id=\"btnVoltar\" value=\"Voltar\">"
-
-    document.getElementById('btnVoltar').addEventListener('click', voltar);
-    document.getElementById('jsUser').innerHTML = tJs
-
+    p2.innerHTML = tHtml 
+    document.getElementById('jsUser').innerHTML = tJs;
 }
 
 function voltar() {
