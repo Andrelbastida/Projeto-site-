@@ -1,6 +1,6 @@
 var p1 = document.getElementById('page1');
-var p2 = document.getElementById('page2')
-p2.style.display = 'none'
+var p2 = document.getElementById('page2');
+p2.style.display = 'none';
 var btn_exec = document.getElementById('btnExecutar');
 btn_exec.addEventListener('click', gerar);
 var btn_limp = document.getElementById('btnLimpar');
