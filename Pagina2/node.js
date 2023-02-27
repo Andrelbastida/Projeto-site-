@@ -48,16 +48,12 @@ const html = document.querySelector("html");
 const body = document.querySelector("body");
 
    
-
-
-mudar.addEventListener('click',white)
-
-function white(){
-    var mudar = document.getElementsByClassName('switch');
-    if(mudar.checked){
+var muda = 0;
+var mudar = document.querySelector('.switch');
+mudar.addEventListener('click',function(){
+    muda=document.querySelector('#claro')
+    if(muda.checked){
         html.classList.toggle("white-mode");
-        body.classList.toggle("white-mode"); 
-            
+        body.classList.toggle("white-mode");    
         }
-}
-
+})
