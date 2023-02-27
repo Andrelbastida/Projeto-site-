@@ -4,6 +4,7 @@ var btn_exec = document.getElementById('btnExecutar');
 btn_exec.addEventListener('click', gerar);
 var btn_limp = document.getElementById('btnLimpar');
 btn_limp.addEventListener('click',limpar)
+var mudar = document.getElementsByClassName('switch');
 
 
 function gerar() {
@@ -41,3 +42,22 @@ function limpar(){
     document.getElementById('codeJs').value = '';
     document.getElementById('jsUser').innerHTML = '';
 }
+
+
+const html = document.querySelector("html");
+const body = document.querySelector("body");
+
+   
+
+
+mudar.addEventListener('click',white)
+
+function white(){
+    var mudar = document.getElementsByClassName('switch');
+    if(mudar.checked){
+        html.classList.toggle("white-mode");
+        body.classList.toggle("white-mode"); 
+            
+        }
+}
+
