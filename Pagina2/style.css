@@ -62,7 +62,7 @@ header{
 nav{
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 70%;
   justify-content:center;
   align-items: center;
 }
