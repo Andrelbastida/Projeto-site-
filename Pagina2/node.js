@@ -1,5 +1,6 @@
-var p1 = 0
-var p2 = document.getElementById('page2').style.display = 'none'
+var p1 = document.getElementById('page1');
+var p2 = document.getElementById('page2')
+p2.style.display = 'none'
 var btn_exec = document.getElementById('btnExecutar');
 btn_exec.addEventListener('click', gerar);
 var btn_limp = document.getElementById('btnLimpar');
@@ -8,9 +9,6 @@ var mudar = document.getElementsByClassName('switch');
 
 
 function gerar() {
-    p1 = document.getElementById('page1');
-    p2 = document.getElementById('page2');
-
     p1.style.display = 'none';
     p2.style.display = 'block';
 
